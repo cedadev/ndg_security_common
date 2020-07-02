@@ -17,4 +17,5 @@ __license__ = "BSD - see LICENSE file in top-level directory"
 __contact__ = "Philip.Kershaw@stfc.ac.uk"
 __revision__ = '$Id$'
 
-__import__('pkg_resources').declare_namespace(__name__)
+from pkgutil import extend_path
+__path__ = extend_path(__path__, __name__)
