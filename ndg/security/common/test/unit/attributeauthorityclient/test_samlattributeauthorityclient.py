@@ -16,7 +16,7 @@ from os import path, environ
 from datetime import datetime
 import unittest
 from uuid import uuid4
-from urllib2 import URLError
+from urllib.error import URLError
 
 from ndg.security.common.config import importElementTree
 ElementTree = importElementTree()

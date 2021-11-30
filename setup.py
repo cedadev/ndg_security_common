@@ -68,7 +68,6 @@ setup(
     },
     dependency_links =		["http://dist.ceda.ac.uk/pip/"],
     packages =       		find_packages(),
-    namespace_packages =	['ndg', 'ndg.security'],
     entry_points =         None,
     test_suite =		   'ndg.security.common.test',
     zip_safe =             False
